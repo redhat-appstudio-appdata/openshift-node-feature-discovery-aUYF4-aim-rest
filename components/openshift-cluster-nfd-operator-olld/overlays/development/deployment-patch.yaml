@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: openshift-cluster-nfd-operator-olld
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhn-gps-cprocter-tenant/openshift-node-feature-discovery/openshift-cluster-nfd-operator-olld@sha256:e2a6cfdfe921a7f20952ea957d716fd6f590c44b2024abc6f7e049a46dac1afd
+        name: container-image
+        resources: {}
+status: {}
