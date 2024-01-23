@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: openshift-node-feature-discovery-nluq
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: openshift-node-feature-discovery-nluq
+    app.kubernetes.io/part-of: openshift-node-feature-discovery
+  name: openshift-node-feature-discovery-nluq
+spec:
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app.kubernetes.io/instance: openshift-node-feature-discovery-nluq
+status:
+  loadBalancer: {}
