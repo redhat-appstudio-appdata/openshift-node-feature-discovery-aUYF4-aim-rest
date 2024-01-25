@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: openshift-cluster-nfd-bundle
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhn-gps-cprocter-tenant/openshift-node-feature-discovery/openshift-cluster-nfd-bundle@sha256:769a50d20755919decda93ad6be43b17b609bd97291a5e319d163758254c6feb
         imagePullPolicy: Always
         name: container-image
         ports:
