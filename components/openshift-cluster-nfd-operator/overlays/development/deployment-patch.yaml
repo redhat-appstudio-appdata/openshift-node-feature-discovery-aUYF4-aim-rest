@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-gps-cprocter-tenant/openshift-node-feature-discovery/openshift-cluster-nfd-operator@sha256:78d5dc6193a4df9f76b3a3ba518f5be6a1252de0507b4e875c287e42b909c6cb
+      - image: quay.io/redhat-user-workloads/rhn-gps-cprocter-tenant/openshift-node-feature-discovery/openshift-cluster-nfd-operator@sha256:aa35ae7949385210c9aa8d27269d0cdc31d6386d67e72d10a649e11aa1a06ba4
         name: container-image
         resources: {}
 status: {}
