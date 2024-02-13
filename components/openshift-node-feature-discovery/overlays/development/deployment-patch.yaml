@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: openshift-node-feature-discovery
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
